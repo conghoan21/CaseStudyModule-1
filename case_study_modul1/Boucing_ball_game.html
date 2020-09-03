@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        button.start-btn {
+            width: 200px;
+            height: 100px;
+            font-size: 36px;
+        }
+
+        .main-content {
+            width: 500px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        button.start-btn:hover {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body onkeydown="moveObj(event)">
+
+<div class="main-content">
+    <h1> Bouncing Ball Game !!!</h1>
+    <canvas id="canvas" width="400" height="600" style="border: 1px solid black"></canvas>
+    <button class="start-btn" onclick="ballRun()"> start</button>
+</div>
+<script src="Bar.js"></script>
+<script src="Ball.js"></script>
+<script>
+    let bar = new Bar(100, 15, 200, 500, 50);
+    let ball = new Ball(350, 300, 10, 5, 5);
+    let score = 0;
+    let canvas = document.getElementById("canvas");
+    let ctx = canvas.getContext("2d");
+
+    function moveObj(event) {
+        switch (event.keyCode) {
+            case 37:
+                bar.moveLeft();
+                break;
+            case 39:
+                bar.moveRight();
+                break;
+        }
+        bar.draw();
+    }
+
+    function ballRun() {
+        function draw() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            ctx.beginPath();
+            ctx.arc(ball.x, ball.y, ball.radius, 0, Math.PI * 2);
+            ctx.closePath();
+            ctx.fillStyle = "red";
+            ctx.fill();
+            ctx.font = "30px Arial";
+            ctx.fillStyle = "black";
+            ctx.fillText("Score: " + score, 10, 50);
+
+            bar.draw();
+            ball.stepForward();
+            ball.checkWin();
+            requestAnimationFrame(draw);
+
+        }
+
+        draw();
+
+    }
+</script>
+</body>
+</html>
