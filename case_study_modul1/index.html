@@ -23,18 +23,18 @@
             cursor: pointer;
         }
     </style>
+    <script src="js/Ball.js"></script>
+    <script src="js/Bar.js"></script>
 </head>
 <body onkeydown="moveObj(event)">
-
 <div class="main-content">
     <h1> Bouncing Ball Game !!!</h1>
     <canvas id="canvas" width="400" height="600" style="border: 1px solid black"></canvas>
     <button class="start-btn" onclick="ballRun()"> start</button>
 </div>
-<script src="Bar.js"></script>
-<script src="Ball.js"></script>
+
 <script>
-    let bar = new Bar(100, 15, 200, 500, 50);
+    let bar = new Bar(100, 15, 150, 500, 30);
     let ball = new Ball(350, 300, 10, 5, 5);
     let score = 0;
     let canvas = document.getElementById("canvas");
@@ -65,7 +65,7 @@
             ctx.fillText("Score: " + score, 10, 50);
 
             bar.draw();
-            ball.stepForward();
+            ball.checkImpact();
             ball.checkWin();
             requestAnimationFrame(draw);
 

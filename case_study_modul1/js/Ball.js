@@ -5,7 +5,7 @@ let Ball = function (x, y, radius, dx, dy) {
     this.dx = dx;
     this.dy = dy;
 
-    this.stepForward = function () {
+    this.checkImpact = function () {
         if (this.x - this.radius < 0 || this.x + this.radius >= canvas.width) {
             this.dx = -this.dx;
         } else {
@@ -34,9 +34,10 @@ let Ball = function (x, y, radius, dx, dy) {
         this.y = this.y + this.dy;
         console.log(Math.abs(this.y) + this.radius);
 
-        if (score == 20) {
+        if (score == 5) {
             alert("YOU WIN!!!");
             document.location.reload();
+            cancelAnimationFrame(draw);
         }
     }
 

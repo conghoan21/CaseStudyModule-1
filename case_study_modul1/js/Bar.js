@@ -20,7 +20,7 @@ function Bar(width, height, x, y, speed) {
         }
     }
     this.moveRight = function () {
-        if (this.x < 400 - this.width) {
+        if (this.x < canvas.width - this.width) {
             this.x += this.speed;
             console.log("ok: " + this.x);
         }
