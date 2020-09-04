@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5679e113-c144-46d4-a78c-466064259804" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/case_study_modul1/Ball.js" beforeDir="false" afterPath="$PROJECT_DIR$/case_study_modul1/Ball.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case_study_modul1/Bar.js" beforeDir="false" afterPath="$PROJECT_DIR$/case_study_modul1/Bar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case_study_modul1/Boucing_ball_game.html" beforeDir="false" afterPath="$PROJECT_DIR$/case_study_modul1/Boucing_ball_game.html" afterDir="false" />
-    </list>
+    <list default="true" id="5679e113-c144-46d4-a78c-466064259804" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,12 +42,23 @@
       <workItem from="1599150469425" duration="1019000" />
       <workItem from="1599151512324" duration="24000" />
       <workItem from="1599151537483" duration="654000" />
-      <workItem from="1599182487187" duration="4576000" />
+      <workItem from="1599182487187" duration="4975000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1599151533276">
