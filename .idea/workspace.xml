@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5679e113-c144-46d4-a78c-466064259804" name="Default Changelist" comment="" />
+    <list default="true" id="5679e113-c144-46d4-a78c-466064259804" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/Ball.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Ball.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/Bar.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Bar.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +49,8 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CodeGym/Design/JavaScript/Puzzle1.html" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -42,7 +65,7 @@
       <workItem from="1599150469425" duration="1019000" />
       <workItem from="1599151512324" duration="24000" />
       <workItem from="1599151537483" duration="654000" />
-      <workItem from="1599182487187" duration="4975000" />
+      <workItem from="1599182487187" duration="13689000" />
     </task>
     <servers />
   </component>
@@ -61,9 +84,13 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1599151533276">
+    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1599206439810">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1599151533276" />
+    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1599206439810" />
+    <state x="301" y="75" key="SettingsEditor" timestamp="1599202520282">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="301" y="75" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1599202520282" />
   </component>
 </project>

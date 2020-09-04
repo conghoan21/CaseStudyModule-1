@@ -23,7 +23,7 @@ let Ball = function (x, y, radius, dx, dy) {
         }
     }
     this.checkWin = function () {
-        if ((Math.abs(ball.y) + ball.radius) >= canvas.height) {
+        if ((ball.y + ball.radius) >= canvas.height) {
             alert("GAME OVER !!!");
             document.location.reload();
             cancelAnimationFrame(draw);
@@ -32,9 +32,8 @@ let Ball = function (x, y, radius, dx, dy) {
 
         this.x = this.x + this.dx;
         this.y = this.y + this.dy;
-        console.log(Math.abs(this.y) + this.radius);
 
-        if (score == 5) {
+        if (score == 10) {
             alert("YOU WIN!!!");
             document.location.reload();
             cancelAnimationFrame(draw);
